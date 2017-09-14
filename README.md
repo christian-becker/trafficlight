@@ -11,18 +11,25 @@ Just a simple example of what you can do with Pimoroni Blinkt! on top of the GPI
 ## how to use it
 
 ### directly on the device
-![GitHub](https://github.com/christian-becker/trafficlight)
 ```
-$ trafficlight/trafficlight.py
+trafficlight/trafficlight.py
 ```
 ...if you have Blinkt! already working. (see ![pimoroni/blinkt](https://github.com/pimoroni/blinkt) for details)
 
 ### with Docker
-![Docker Hub](https://hub.docker.com/r/christianbecker/trafficlight/)
 ```
-$ docker run --rm --cap-add SYS_RAWIO --device /dev/mem christianbecker/trafficlight
+docker run --rm --cap-add SYS_RAWIO --device /dev/mem christianbecker/trafficlight
 ```
 
+
+---
+
+## project links
+[GitHub](https://github.com/christian-becker/trafficlight)
+[Docker Hub](https://hub.docker.com/r/christianbecker/trafficlight/)
+
+
+---
 
 ## Authors
 * **Christian Becker** - [christian-becker](https://github.com/christian-becker)
